@@ -1,14 +1,11 @@
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.css";
+
+import Header from "./Components/Header";
 
 export default function App() {
   return (
     <div>
-      <h1>Hello world</h1>
-
-      <button type="button" className="btn btn-primary">
-        Primary
-      </button>
+      <Header />
     </div>
   );
 }
